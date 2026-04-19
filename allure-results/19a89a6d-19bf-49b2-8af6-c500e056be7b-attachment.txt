@@ -1,0 +1,4 @@
+Simple Alert: You clicked a button
+Timer Alert: This alert appeared after 5 seconds
+Confirm Alert: Do you confirm action?
+Prompt Alert: Please enter your name
