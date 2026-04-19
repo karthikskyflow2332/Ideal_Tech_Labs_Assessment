@@ -66,14 +66,10 @@ test("OrangeHRM",async({page})=>{
   // Edit User
   await page.click(`//div[text()='${new_username}']/ancestor::div[@role='row']//i[contains(@class,'bi-pencil-fill')]`);
 
-  await page.waitForTimeout(2500);
-
   // Change Username
   const update_username = 'updateduserideal123';
   await page.fill('(//input[@class="oxd-input oxd-input--active"])[2]', update_username);
   await page.click('button:has-text("Save")');
-
-  await page.waitForTimeout(2500);
 
   // Verify Updated User
   await page.fill('(//input[@class="oxd-input oxd-input--active"])[2]', update_username);
@@ -84,8 +80,6 @@ test("OrangeHRM",async({page})=>{
   await page.click(`//div[text()='${update_username}']/ancestor::div[@role='row']//i[contains(@class,'bi-trash')]`);
   await page.click('button:has-text("Yes, Delete")');
   
-  await page.waitForTimeout(2500);
-
   // Verify Deletion
   await page.fill('(//input[@class="oxd-input oxd-input--active"])[2]', update_username);
   await page.click('button:has-text("Search")');
