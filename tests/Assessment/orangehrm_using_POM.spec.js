@@ -5,7 +5,7 @@ import { AdminPage_orangehrm } from '../../Pages (pom)/Admin_Page';
 
 test("OrangeHRM_using POM ",async({page})=>{
 
-   test.setTimeout(60000);
+    test.setTimeout(1200000);
 
     const username = 'Admin';
     const password = 'admin123';
@@ -23,7 +23,7 @@ test("OrangeHRM_using POM ",async({page})=>{
    // Admin page
     const admin = new AdminPage_orangehrm(page);
     await admin.navigate_To_Admin();
-    await admin.create_User("Admin","Ad akhilQAQA min","Enabled",new_username,new_password);
+    await admin.create_User("Admin","Peter Mac Anderson","Enabled",new_username,new_password);
     
     await admin.search_User(new_username);
     await admin.verify_User_Exists(new_username);

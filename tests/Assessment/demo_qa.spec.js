@@ -84,7 +84,4 @@ test("Demo QA Automation",async({page})=>{
         await new_window.waitForLoadState();
         console.log('New Window URL:', new_window.url());
         await new_window.close();
-
 });
-
-

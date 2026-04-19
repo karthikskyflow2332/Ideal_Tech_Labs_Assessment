@@ -22,10 +22,10 @@ test("Demo QA Automation using POM", async ({ page }) => {
     const frames = new FramesPage(page);
     await frames.launch_Url_Frames();
 
-    const frame1_Text = await frames.getFrameText('#frame1');
+    const frame1_Text = await frames.get_Frame_Text('#frame1');
     console.log("1st Frame Text:", frame1_Text);
 
-    const frame2_Text = await frames.getFrameText('#frame2');
+    const frame2_Text = await frames.get_Frame_Text('#frame2');
     console.log("2nd Frame Text:", frame2_Text);
 
     // Windows

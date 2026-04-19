@@ -1,0 +1,77 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link:
+      - /url: https://demoqa.com
+      - img
+  - generic [ref=e6]:
+    - generic [ref=e9]:
+      - generic [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]:
+          - img [ref=e15]
+          - text: Elements
+        - img [ref=e20]
+      - generic [ref=e24] [cursor=pointer]:
+        - generic [ref=e25]:
+          - img [ref=e27]
+          - text: Forms
+        - img [ref=e33]
+      - generic [ref=e35]:
+        - generic [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]:
+            - img [ref=e40]
+            - text: Alerts, Frame & Windows
+          - img [ref=e45]
+        - list [ref=e48]:
+          - listitem [ref=e49] [cursor=pointer]:
+            - link "Browser Windows" [ref=e50]:
+              - /url: /browser-windows
+              - img [ref=e51]
+              - text: Browser Windows
+          - listitem [ref=e53] [cursor=pointer]:
+            - link "Alerts" [ref=e54]:
+              - /url: /alerts
+              - img [ref=e55]
+              - text: Alerts
+          - listitem [ref=e57] [cursor=pointer]:
+            - link "Frames" [ref=e58]:
+              - /url: /frames
+              - img [ref=e59]
+              - text: Frames
+          - listitem [ref=e61] [cursor=pointer]:
+            - link "Nested Frames" [ref=e62]:
+              - /url: /nestedframes
+              - img [ref=e63]
+              - text: Nested Frames
+          - listitem [ref=e65] [cursor=pointer]:
+            - link "Modal Dialogs" [ref=e66]:
+              - /url: /modal-dialogs
+              - img [ref=e67]
+              - text: Modal Dialogs
+      - generic [ref=e71] [cursor=pointer]:
+        - generic [ref=e72]:
+          - img [ref=e74]
+          - text: Widgets
+        - img [ref=e80]
+      - generic [ref=e84] [cursor=pointer]:
+        - generic [ref=e85]:
+          - img [ref=e87]
+          - text: Interactions
+        - img [ref=e92]
+      - generic [ref=e96] [cursor=pointer]:
+        - generic [ref=e97]:
+          - img [ref=e99]
+          - text: Book Store Application
+        - img [ref=e104]
+    - generic [ref=e107]:
+      - heading "Frames" [level=1] [ref=e108]
+      - generic [ref=e109]: Sample Iframe page There are 2 Iframes in this page. Use browser inspecter or firebug to check out the HTML source. In total you can switch between the parent frame, which is this window, and the two frames below
+      - iframe [ref=e111]:
+        - heading "This is a sample page" [level=1] [ref=f1e2]
+      - iframe [ref=e113]:
+        - heading "This is a sample page" [level=1] [ref=f2e2]
+  - contentinfo [ref=e120]:
+    - generic [ref=e121]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

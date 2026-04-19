@@ -1,0 +1,8 @@
+Alert: You clicked a button
+Timer Alert: This alert appeared after 5 seconds
+Confirm: Do you confirm action?
+Prompt: Please enter your name
+1st Frame Text:  This is a sample page
+2nd Frame Text:  This is a sample page
+New Tab URL: https://demoqa.com/sample
+New Window URL: https://demoqa.com/sample
